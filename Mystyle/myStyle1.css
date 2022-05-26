@@ -1,0 +1,159 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+#header{
+	background-color:white;
+	padding:15px;
+}
+#search{
+	position:absolute;
+	right:50px;
+	top:30px;
+}
+#menu ul {
+	background:#f27474;
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+	text-align: right;
+
+}
+#menu ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+#menu ul li a {
+	display: inline;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-decoration: none;
+	font-size: 110%;
+	transition: 0.5s;
+}
+
+#menu ul li a:hover {
+	background: white;
+	color: black;
+	border-radius: 5px;
+	font-size: 120%;
+	transition: 0.5s;
+}
+span{
+	color: white;
+	font-size: 110%;
+}
+span:hover{
+	background: white;
+	color: black;
+	border-radius: 5px;
+	font-size: 120%;
+	transition: 0.5s;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#footer{
+	background-color:#f27474;
+	color:white;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	position:fixed;
+	text-align:center;
+	border-radius:10px;
+	margin-top:15px;
+	font-weight:bold;
+	padding:10px;
+}
+
+.leftcolumn {
+	width: 75%;
+	float: left;
+}
+
+.rightcolumn {
+	width: 25%;
+	float: right;
+	padding-left: 10px;
+}
+
+.row {
+	display: table;
+}
+
+.card {
+	background: #ebbebe;
+	border-radius: 5px;
+	padding: 15px;
+	margin-top: 10px;
+	transition: 0.5s;
+}
+
+.card img {
+	border-radius: 2px;
+	/*width: 100%;*/
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 10pt;
+  }
+}
+#social ul{
+	padding:10px;
+	list-style-type:none;
+	display:inline;
+}
+#social ul li{
+	display:inline-table;
+}
+
+h1 {
+	color: #ce282e;
+	font-size: 120%;
+}
+
+
+img {
+	opacity: 1;
+	transition: 1s;
+}
+
+img:hover {
+	opacity: 0.85;
+	transition: 1s
+}
+legend{
+		font-family: Verdana;
+		font-size: 200%;
+		text-align: left;
+}
+
+p{
+	text-align: left;
+}
